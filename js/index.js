@@ -3,7 +3,8 @@ var pictureAnimated = true;
 const log = document.getElementById("log");
 let seh = document.getElementById("Search");
 seh.addEventListener("keypress", logKey);
-
+let tyu = document.getElementById("A1");
+ tyu.style.top = "449.750px"
 function logKey(e) {
   if (e.code == "Enter") {
     btn_sh();
@@ -13,35 +14,37 @@ function logKey(e) {
 
 function btn_sh() {
   let objetmenu = document.getElementById("tre");
+ 
   var div = [];
   div.push(document.getElementById("A1"));
   div.push(document.getElementById("A2"));
-
+  const numpx = parseInt(div[0].style.top);
+  let numpx1 = numpx;
+ // let tyu = div[0];
+  //console.log(());
   if (pictureAnimated) {
     (function (nbFrames) {
-      var numFrame = 0;
-      var anim = setInterval(move, 1);
-
-      // div[1].innerHTML =
-      //   "une jolie string qui va bien qui est le conenu de la prochaine div fourni en AJAX par exemple";
-
+      var numFrame = numpx;
+      var anim = setInterval(move, 0);
       objetmenu.style.cursor = "wait";
-
       function move() {
         console.log(numFrame);
-        if (numFrame++ >= nbFrames) {
+        console.log(tyu.style.top);
+        if (numpx1-- <= -numpx) {
           clearInterval(anim);
-          //div[0].style.marginTop = "800px";
-          //div[0].innerHTML = div[1].innerHTML;
-
-          pictureAnimated = false;
           objetmenu.style.cursor = "";
         } else {
-          div[0].style.marginTop =
-            -numFrame * (div[0].clientHeight / nbFrames) * 2.5 + "px";
+          if (numpx1-- <= 91) {
+            clearInterval(anim);
+            pictureAnimated = false;
+            objetmenu.style.cursor = "";
+          } else {
+            numpx1 = numpx1 - 1;
+            div[0].style.top = numpx1 + "px";
+          }
         }
       }
-    })(100);
+    })(80);
   } else {
     //pictureAnimated = true;
   }

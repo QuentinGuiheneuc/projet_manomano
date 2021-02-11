@@ -16,7 +16,7 @@ session_start();
         <!-- App favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
     <!-- App css -->
-   
+   <script type="module" src="js/index.js" ></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@ session_start();
                                     <div class="col-xl-12 col-lg-12 col-sm-12" id="navbarSupportedContent">
                                         <div class="form-inline col-xl-12 col-lg-12 col-sm-10">
                                             <input class="form-control col-xl-10 col-lg-10 col-sm-10" type="search" placeholder="Recherche de Theme ou SousTheme" aria-label="Search" id="Search">
-                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2"  href="javascript: btn_sh1();" >Search</a>
+                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2" href="javascript:btn_sh();" >Search</a>
                                         </div>
                                     </div>
                                 </nav>
@@ -53,6 +53,6 @@ session_start();
                 </div>
             </div>
         </div>
-<script type="module" src="js/index.js" ></script>
+        
     </body>
 </html>

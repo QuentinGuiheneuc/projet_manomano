@@ -5,7 +5,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: absolute; /* postulat de départ */
-  top: 48%;
+  top: 449.750px;
   left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
   padding: 0px;
