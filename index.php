@@ -39,7 +39,7 @@ session_start();
                                     <div class="col-xl-12 col-lg-12 col-sm-12" id="navbarSupportedContent">
                                         <div class="form-inline col-xl-12 col-lg-12 col-sm-10">
                                             <input class="form-control col-xl-10 col-lg-10 col-sm-10" type="search" placeholder="Recherche de Theme ou SousTheme" aria-label="Search" id="Search">
-                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2" href="javascript:btn_sh();" >Search</a>
+                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2" id ="btnSearch" >Search</a>
                                         </div>
                                     </div>
                                 </nav>

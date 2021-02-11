@@ -1,10 +1,12 @@
 var pictureAnimated = true;
-
 const log = document.getElementById("log");
 let seh = document.getElementById("Search");
+let sehbtn = document.getElementById("btnSearch");
 seh.addEventListener("keypress", logKey);
+sehbtn.addEventListener("click", btn_sh);
 let tyu = document.getElementById("A1");
- tyu.style.top = "449.750px"
+tyu.style.top = "449.750px"
+ 
 function logKey(e) {
   if (e.code == "Enter") {
     btn_sh();
@@ -29,7 +31,7 @@ function btn_sh() {
       objetmenu.style.cursor = "wait";
       function move() {
         console.log(numFrame);
-        console.log(tyu.style.top);
+        //console.log(tyu.style.top);
         if (numpx1-- <= -numpx) {
           clearInterval(anim);
           objetmenu.style.cursor = "";
@@ -51,6 +53,3 @@ function btn_sh() {
   log.innerText = seh.value;
   console.log(seh.value);
 }
-export const btn_sh1 = () => {
-  btn_sh();
-};
