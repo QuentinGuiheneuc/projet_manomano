@@ -2,7 +2,7 @@
 
 body, html {
   overflow-x: hidden; 
-  height: 100%;
+  height: 2000px;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -43,11 +43,45 @@ body, html {
   margin-top: 4%;
 }
 
+.titleDiv{
+  border-radius:3px;
+  max-width: 50%;
+  border: solid;
+  height: 100px;
+  padding: 1%;
+  border-color: rgba(0, 47, 134, 0.49);
+}
+
 .oneTheme{
-  height:280px;
+  height:auto;
+  padding: 15px;
   margin-top:10px;
   background-color: rgba(187, 211, 255, 0.49);
   border-radius:45px;
+}
+
+.titleTheme{
+  border-radius: 10px;
+  margin-top:15px;
+  margin-bottom:20px;
+  height:50px;
+  background-color:rgb(203, 221, 252);
+}
+
+.sousThemes{
+  background-color: rgba(249, 253, 255, 0.651);
+  border: none;
+}
+
+a{
+  font-size:large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+a:hover {
+  color: rgb(7, 7, 167);
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /*container pour les éléments de la page home*/
