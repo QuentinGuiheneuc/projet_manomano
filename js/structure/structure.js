@@ -89,7 +89,7 @@ export const createResultDatasousTheme = (id, data) => {
   div1.style = "width: 30rem;";
   div1.className = " col-xl-3 col-lg-2 col-sm-6";
   a.className = "btn btn-manomano";
-  a.href = `/manomano/tuto.php?idtheme=${"1"}`;
+  a.href = `/manomano/modelisation/index.php?idthemesous=${"1"}`;
   a.innerText = "Choisir";
   div1.setAttribute("data-aos", "fade-left");
   div1.setAttribute("data-aos-duration", "1000");
