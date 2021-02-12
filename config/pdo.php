@@ -3,7 +3,7 @@
 // fichier de liaison à la base de données
 $database_host = 'localhost';
 $database_port = '3306';
-$database_dbname = 'bbd_projet';
+$database_dbname = 'manomano1';
 $database_user = 'pma';
 $database_password = 'password';
 $database_charset = 'UTF8';

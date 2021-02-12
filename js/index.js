@@ -13,15 +13,22 @@ btn.addEventListener("click", azrty1);
 btn1.addEventListener("click", azrty2);
 let tyu = document.getElementById("A1");
 let stop;
-tyu.style.top = screen.height / 2.5 + "px";
-console.log(screen.height);
-if (screen.height >= 900) {
-  stop = 91;
-  all.style = "top:290px";
-} else {
-  stop = 120;
-  all.style = "top:190px";
+window.addEventListener("load", load);
+function load() {
+  tyu.style.top = screen.height / 2.5 + "px";
+  console.log(screen.height);
+  if (screen.height >= 900) {
+    stop = 91;
+    all.style = "top:290px";
+  } else {
+    stop = 120;
+    all.style = "top:190px";
+  }
+  if (seh.value) {
+    btn_sh();
+  }
 }
+
 function logKey(e) {
   if (e.code == "Enter") {
     btn_sh();
@@ -31,7 +38,6 @@ function logKey(e) {
 
 function btn_sh() {
   let objetmenu = document.getElementById("tre");
-
   all.className = "row col-xl-12 col-lg-12 col-sm-12 hide";
   var div = [];
   div.push(document.getElementById("A1"));
@@ -56,7 +62,6 @@ function btn_sh() {
             clearInterval(anim);
             pictureAnimated = false;
             objetmenu.style.cursor = "";
-            createResultSearch("A2", "dffgd");
             all.className = "row col-xl-12 col-lg-12 col-sm-12";
           } else {
             numpx1 = numpx1 - 5;
@@ -66,14 +71,32 @@ function btn_sh() {
       }
     })(80);
   } else {
-    createResultSearch("A2", "dffgd");
     all.className = "row col-xl-12 col-lg-12 col-sm-12";
+  }
+  if (seh.value != "") {
+    execu(`/manomano/re_sql.php?searchth=${seh.value}`);
+  } else {
+    execu(`/manomano/re_sql.php?searchth=all`);
   }
   valuesearch.innerHTML = `X résultat(s) ont été trouvés pour la recherche : ${seh.value}`;
   console.log(seh.value);
   AOS.init();
 }
-
+function execu(vet) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", vet, true);
+  xhttp.setRequestHeader("Content-type", "application/json");
+  xhttp.setRequestHeader("Accept", "application/json");
+  xhttp.send();
+  xhttp.onload = () => {
+    if (xhttp.responseText != "") {
+      let resJson1 = JSON.parse(xhttp.responseText);
+      console.log(resJson1);
+      createResultSearch("A2", resJson1);
+      all.className = "row col-xl-12 col-lg-12 col-sm-12";
+    }
+  };
+}
 function azrty1() {
   doScrollLeft(document.getElementById("A2"), 200);
 }
@@ -81,9 +104,6 @@ function azrty2() {
   doScrollLeft(document.getElementById("A2"), -200);
 }
 
-function doScrollLeft(el, p) {
-  el.scrollLeft = el.scrollLeft += p;
-}
 (function () {
   function scrollHorizontally(e) {
     e = window.event || e;

@@ -149,7 +149,7 @@
                                                     <a class="dropdown-item" href="#">bidule</a>
                                                 </div>
                                             </div>
-                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Help ?</a>
+                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 20px;">Help ?</a>
                                             <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Buy</a>
                                         </div>
                                     </div>
@@ -161,14 +161,14 @@
                                 <div class="workbenchu"style="padding:0px;" >
                                     <div id="workbench" >
                                             <div id="grid-snap0" class="grid-snapclass">
-                                            I can move.
+                                            Je suis l'object Principal.
                                         </div>
                                     </div>
                                 </div>
                             </div>  
                         </div>
             </div>
-        <!-- <div class="chat" id="Form">
+            <!-- <div class="chat" id="Form">
             <form action="/action.php" class="form-container" method="GET">
                 <h1> Informations </h1>
                 <label for="msg"><b>Message</b></label>

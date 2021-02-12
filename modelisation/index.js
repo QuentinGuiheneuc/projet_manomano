@@ -158,11 +158,12 @@ function create_div_cable() {
   let workbench = document.getElementById("workbench");
   let new_div = document.createElement("div");
   let object = document.createElement("object");
-  object.data = "../icons/dash.svg";
+  object.data = "";
   object.id = "star-demo" + val;
   object.setAttribute("alt", "embedded svg");
   object.type = "image/svg+xml";
   object.className = "star-demo";
+  //object.innerHTML =
   val = val + 1;
   new_div.className = "star-wrapperclass";
   new_div.appendChild(object);
@@ -172,7 +173,7 @@ function create_div_cable() {
 function create_div() {
   let workbench = document.getElementById("workbench");
   let new_div = document.createElement("div");
-  new_div.innerText = "I am the object " + val;
+  new_div.innerText = "Prise " + val;
   val = val + 1;
   new_div.id = "grid-snap" + val;
   new_div.className = "grid-snapclass";

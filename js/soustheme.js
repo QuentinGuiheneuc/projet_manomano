@@ -29,10 +29,39 @@ function logKey(e) {
   } else {
   }
 }
-
+function execu() {
+  let resJson1 = "";
+  let uri = document.location.href.split("?");
+  let redirect_uri = uri[1].split("=");
+  let recuperationGetTheme = redirect_uri[1];
+  var xhttp = new XMLHttpRequest();
+  let vet;
+  if (seh.value) {
+    vet = seh.value;
+  } else {
+    vet = "all";
+  }
+  xhttp.open(
+    "GET",
+    `/manomano/re_sql.php?searchthsous=${vet}&idtheme=${recuperationGetTheme}`,
+    true
+  );
+  xhttp.setRequestHeader("Content-type", "application/json");
+  xhttp.setRequestHeader("Accept", "application/json");
+  xhttp.send();
+  xhttp.onload = () => {
+    if (xhttp.responseText != "") {
+      console.log(xhttp.responseText);
+      resJson1 = JSON.parse(xhttp.responseText);
+      console.log(resJson1);
+      createResultSearchsous("A2", resJson1);
+    }
+    all.className = "row col-xl-12 col-lg-12 col-sm-12";
+    AOS.init();
+  };
+}
 function btn_sh() {
   let objetmenu = document.getElementById("tre");
-
   all.className = "row col-xl-12 col-lg-12 col-sm-12 hide";
   var div = [];
   div.push(document.getElementById("A1"));
@@ -57,7 +86,7 @@ function btn_sh() {
             clearInterval(anim);
             pictureAnimated = false;
             objetmenu.style.cursor = "";
-            createResultSearchsous("A2", "dffgd");
+            execu();
             all.className = "row col-xl-12 col-lg-12 col-sm-12";
           } else {
             numpx1 = numpx1 - 5;
@@ -67,14 +96,13 @@ function btn_sh() {
       }
     })(80);
   } else {
-    createResultSearchsous("A2", "dffgd");
     all.className = "row col-xl-12 col-lg-12 col-sm-12";
+    execu();
+    valuesearch.innerHTML = `X résultat(s) ont été trouvés pour la recherche : ${seh.value}`;
+    console.log(seh.value);
+    AOS.init();
   }
-  valuesearch.innerHTML = `X résultat(s) ont été trouvés pour la recherche : ${seh.value}`;
-  console.log(seh.value);
-  AOS.init();
 }
-
 function azrty1() {
   doScrollLeft(document.getElementById("A2"), 200);
 }

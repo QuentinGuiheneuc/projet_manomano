@@ -37,9 +37,10 @@ nav ul::after {
   font-size: 12px;
 }
 #contain {
-  margin-left: 12.3% !important;
-  margin-right: 12.2% !important;
+  margin-left: 15% !important;
+  margin-right: 15% !important;
 }
+
 .star-wrapperclass {
   display: flex;
   flex-direction: column;
