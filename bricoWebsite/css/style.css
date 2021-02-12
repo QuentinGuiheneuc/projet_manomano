@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body, html {
+  overflow-x: hidden; 
+  height: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.bouton_style{
+  color: rgb(71, 75, 48);
+  border-radius: 10%;
+  border: none;
+  background-color: rgb(247, 255, 188);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: fit-content;
+  text-align: center;
+  font-size: x-small;
+  height: 30px;
+}
+
+.logo{
+  display: inline-block;
+  height: 75px;
+  width: 300px;
+}
+
+.titleBrand{
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.selection{
+  height: 200px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.selection1{
+  margin-top: 4%;
+}
+
+.text{
+  margin-top: 2%;
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: rgb(245, 253, 180);
+  text-align: left;
+}
+
+/*container pour les éléments de la page home*/
