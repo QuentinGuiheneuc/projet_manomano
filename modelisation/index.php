@@ -149,8 +149,8 @@
                                                     <a class="dropdown-item" href="#">bidule</a>
                                                 </div>
                                             </div>
-                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 20px;">Help ?</a>
-                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Buy</a>
+                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 180px;">Help ?</a>
+                                            <a href="https://www.manomano.fr/mon-panier" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Buy</a>
                                         </div>
                                     </div>
                                 </div>

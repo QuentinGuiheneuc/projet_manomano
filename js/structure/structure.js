@@ -27,6 +27,7 @@ const createResultDataTheme = (id, data) => {
   img.src = data.image;
   img.className = "card-img-top";
   p.innerText = data.description;
+  p.className = "";
   titre.className = "header-title";
   titre.innerText = data.nom_theme;
   card_body.className = "card-body";
@@ -34,7 +35,7 @@ const createResultDataTheme = (id, data) => {
   card.style = "height:592px;";
   div1.style = "width: 30rem;";
   div1.className = " col-xl-3 col-lg-2 col-sm-6";
-  a.className = "btn btn-manomano";
+  a.className = "btn btn-manomano btn-block";
   a.href = `/manomano/soustheme.php?idtheme=${data.id_theme}`;
   a.innerText = "Choisir";
   div1.setAttribute("data-aos", "fade-left");
@@ -60,6 +61,7 @@ const createResultDatasousTheme = (id, data) => {
   img.src = data.image;
   img.className = "card-img-top";
   p.innerText = data.description;
+  p.className = "per";
   titre.className = "header-title";
   titre.innerText = data.nom_soustheme;
   card_body.className = "card-body";
@@ -67,7 +69,7 @@ const createResultDatasousTheme = (id, data) => {
   card.style = "height:592px;";
   div1.style = "width: 30rem;";
   div1.className = "col-xl-3 col-lg-2 col-sm-6";
-  a.className = "btn btn-manomano";
+  a.className = "btn btn-manomano btn-block";
   a.href = `/manomano/modelisation/index.php?idthemesous=${data.id_soustheme}`;
   a.innerText = "Choisir";
   div1.setAttribute("data-aos", "fade-left");
