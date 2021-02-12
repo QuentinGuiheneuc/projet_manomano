@@ -14,8 +14,8 @@ btn1.addEventListener("click", azrty2);
 let tyu = document.getElementById("A1");
 let stop;
 tyu.style.top = screen.height / 2.5 + "px";
-console.log(screen.height / 2.5);
-if (screen.height / 2.5 >= 400) {
+console.log(screen.height);
+if (screen.height >= 900) {
   stop = 91;
   all.style = "top:290px";
 } else {

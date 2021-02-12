@@ -33,7 +33,7 @@ export const createResultData = (id, data) => {
   card_body.className = "card-body";
   card.className = "card";
   div1.style = "width: 30rem;";
-  div1.className = " col-xl-3 col-lg-3 col-sm-9";
+  div1.className = " col-xl-3 col-lg-2 col-sm-6";
   card_body.appendChild(titre);
   card_body.appendChild(p);
   card_body.appendChild(p1);
