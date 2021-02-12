@@ -90,4 +90,44 @@ a:hover {
   padding-top: 40px;
 }
 
-/*container pour les éléments de la page home*/
+.header{
+  background-image: url("images/banner.svg");
+  
+  /* image centrée en placée parfaitement */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:15px;
+  width:100%;
+  background-color: rgba(207, 242, 245, 0.514);
+  height:250px;
+  border-radius: 3%;
+}
+
+.contentbox{
+  height: 2000px;
+}
+
+.leftDiv{
+  background-image: url("images/leftDiv.svg");
+  
+  /* image centrée en placée parfaitement */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width:100%;
+  height:250px;
+  border-radius: 3%;
+}
+.rightDiv{
+  
+  /* image centrée en placée parfaitement */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:250px;
+  border-radius: 1%;
+  background-image: url("images/rightDivv.png");
+}

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1373" height="2050" viewBox="0 0 1373 2050">
+  <defs>
+    <filter id="Rectangle_6500" x="0" y="0" width="1373" height="2050" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#9dadb9" flood-opacity="0.659"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="1140" height="1857" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="1142.709" height="1627" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="leftDiv" transform="translate(-50 -839)">
+    <g id="Group_11588" data-name="Group 11588" transform="translate(78.316 835.62)">
+      <g transform="matrix(1, 0, 0, 1, -28.32, 3.38)" filter="url(#Rectangle_6500)">
+        <rect id="Rectangle_6500-2" data-name="Rectangle 6500" width="1253" height="1930" rx="30" transform="translate(60 60)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="content">
+      <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(167 968)" clip-path="url(#clip-path)">
+        <g transform="translate(-167 -968)">
+          <g id="Rectangle_6504" data-name="Rectangle 6504" transform="translate(167 968)" fill="rgba(229,241,254,0.41)" stroke="#cbd7ff" stroke-width="1">
+            <rect width="1140" height="132" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1139" height="131" rx="17.5" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-167 216)">
+          <g id="Rectangle_6504-2" data-name="Rectangle 6504" transform="translate(167 968)" fill="rgba(229,241,254,0.41)" stroke="#cbd7ff" stroke-width="1">
+            <rect width="1140" height="132" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1139" height="131" rx="17.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="paragraph" transform="translate(165 1158)" clip-path="url(#clip-path-2)">
+        <g id="paragraph-2" data-name="paragraph" transform="translate(-165 -1158)">
+          <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna_aliquyam_erat_sed_diam_voluptua._At_vero_eos_et_accusam_et_justo_duo_dolores_et_ea_rebum._Stet_clita_kasd_gubergren_no_sea_takimat" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+
+Stet clita kasd gubergren, no sea takimat" transform="translate(167 1158)" font-size="27" font-family="ArialMT, Arial"><tspan x="0" y="24">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </tspan><tspan x="0" y="55">invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </tspan><tspan x="0" y="86">accusam et justo duo dolores et ea rebum. </tspan><tspan x="0" y="117"></tspan><tspan x="0" y="148">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem </tspan><tspan x="0" y="179">ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt </tspan><tspan x="0" y="210">ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et </tspan><tspan x="0" y="241">justo duo dolores et ea rebum.</tspan></text>
+          <g id="Rectangle_6505" data-name="Rectangle 6505" transform="translate(167 1469)" fill="#e8eff7" stroke="#707070" stroke-width="1">
+            <rect width="1140" height="525" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1139" height="524" fill="none"/>
+          </g>
+          <line id="Line_4" data-name="Line 4" x2="1140" y2="525" transform="translate(167.5 1469.5)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_5" data-name="Line 5" y1="524" x2="1140" transform="translate(167.5 1469.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        </g>
+        <g id="paragraph-3" data-name="paragraph" transform="translate(-165 28)">
+          <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna_aliquyam_erat_sed_diam_voluptua._At_vero_eos_et_accusam_et_justo_duo_dolores_et_ea_rebum._Stet_clita_kasd_gubergren_no_sea_takimat-2" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+
+Stet clita kasd gubergren, no sea takimat" transform="translate(167 1158)" font-size="27" font-family="ArialMT, Arial"><tspan x="0" y="24">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </tspan><tspan x="0" y="55">invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </tspan><tspan x="0" y="86">accusam et justo duo dolores et ea rebum. </tspan><tspan x="0" y="117"></tspan><tspan x="0" y="148">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem </tspan><tspan x="0" y="179">ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt </tspan><tspan x="0" y="210">ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et </tspan><tspan x="0" y="241">justo duo dolores et ea rebum.</tspan></text>
+          <g id="Rectangle_6505-2" data-name="Rectangle 6505" transform="translate(167 1469)" fill="#e8eff7" stroke="#707070" stroke-width="1">
+            <rect width="1140" height="525" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1139" height="524" fill="none"/>
+          </g>
+          <line id="Line_4-2" data-name="Line 4" x2="1140" y2="525" transform="translate(167.5 1469.5)" fill="none" stroke="#707070" stroke-width="1"/>
+          <line id="Line_5-2" data-name="Line 5" y1="524" x2="1140" transform="translate(167.5 1469.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="Etape_1" data-name="Etape 1" transform="translate(186 2238)" fill="#0a2056" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="65" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Etape 1</tspan></text>
+      <text id="Avant_de_commencer..." data-name="Avant de commencer..." transform="translate(186 1057)" fill="#0a2056" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="65" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Avant de commencer...</tspan></text>
+    </g>
+  </g>
+</svg>
