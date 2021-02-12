@@ -12,164 +12,163 @@
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
-            <div class="wrapper bg-light">
+            <div class="container-pages bg-light">
             <!-- ========== Left Sidebar Start ========== -->
-                <div class="content-page">
-                    <div class="content" id="tre">
-                            <div class="row">
-                            <div class="col-xl-2 col-lg-2 col-sm-2 column" id="column">
+               <div class="column" id="column">
                                 <div class="card column">
                                     <div class="card-body">
-                                        <h5 class="card-title">Outils</h5>
-                                        <nav>
-                                            <div class="dropdown">
-                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Dropdown button
+                                        <h3 class="card-title">Outils</h3>
+                                        <div clas="row">
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Outils 1
                                                 </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Sélection</a>
+                                                    <a class="dropdown-item" href="#">Supprimer</a>
+                                                    <a class="dropdown-item" href="#">Couleur</a>
                                                 </div>
                                             </div>
-                                            <ul>
-                                                <li class="deroulant"><a href="#"> Outils 1 &ensp;</a>
-                                                    <ul class="sous">
-                                                        <li><a href="#"> Sélection </a></li>
-                                                        <li><a href="#"> Supprimer </a></li>
-                                                        <li><a href="#"> Couleur </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="deroulant"><a href="#"> Outils 2 &ensp;</a>
-                                                    <ul class="sous">
-                                                        <li><a href="#"> Quelquechose </a></li>
-                                                        <li><a href="#"> untruc </a></li>
-                                                        <li><a href="#"> bidule </a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">something usefull</a></li>
-                                                <li><a href="#">or not dunno</a></li>
-                                            </ul>
-                                        </nav>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Outils 2
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-8 col-lg-8 col-sm-8" id="workbench">
-                                <div id="grid-snap0" class="grid-snapclass">
-                                    I can move.
+                        
+                        <div class="column2" id="column2" style=" padding:0px;">
+                                <div class="card column">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Composant</h3>
+                                        <div clas="row">
+                                            <div class="dropdown" style="padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 1
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" id="object">Prise</a>
+                                                    <a class="dropdown-item" id="cable">Cable</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 2
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown " style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 3
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 4
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 5
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown " style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 6
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown " style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 7
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown " style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 8
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 9
+                                                </button>
+                                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown" style=" padding-top: 5px;">
+                                                <button class="btn btn-light dropdown-toggle col-xl-12 col-lg-12 col-sm-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Composant 10
+                                                </button>
+                                                <div class="dropdown-menu col-xl-12 col-lg-12 col-sm-12" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Quelquechose</a>
+                                                    <a class="dropdown-item" href="#">untruc</a>
+                                                    <a class="dropdown-item" href="#">bidule</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Help ?</a>
+                                            <a href="#" class= "btn btn-light col-xl-12 col-lg-12 col-sm-12" style="margin-top: 10px;">Buy</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-2 col-lg-2 col-sm-2" id="column2">
-
-                                <nav>
-                                    <ul>
-                                        <li class="deroulant"><a href="#"> Composant 1 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a id="object"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="deroulant"><a href="#"> Composant 2 &ensp;</a>
-                                            <ul class="sous">
-                                                <li><a href="#"> Quelquechose </a></li>
-                                                <li><a href="#"> untruc </a></li>
-                                                <li><a href="#"> bidule </a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Help ?</a></li>
-                                        <li><a href="#">Buy</a></li>
-                                    </ul>
-                                </nav>
+                                
+                        </div>
+                        <div class="content" id="contain">
+                            <div class="row" style="padding:0px;">
+                                <div class="workbenchu"style="padding:0px;" >
+                                    <div id="workbench" >
+                                            <div id="grid-snap0" class="grid-snapclass">
+                                            I can move.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>  
-                    </div>
-                </div>
+                        </div>
             </div>
-        <div class="chat" id="Form">
+        <!-- <div class="chat" id="Form">
             <form action="/action.php" class="form-container" method="GET">
                 <h1> Informations </h1>
                 <label for="msg"><b>Message</b></label>
@@ -180,6 +179,6 @@
                 </div>
                 <button type="button" class="btncancel" onclick="closeForm()">Fermer</button>
             </form>
-        </div>
+        </div> -->
     </body>
 </html>

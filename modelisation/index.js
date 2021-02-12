@@ -152,13 +152,35 @@ window.dragMoveListener = dragMoveListener;
 let object = document.getElementById("object");
 object.addEventListener("click", create_div);
 
+let objectcable = document.getElementById("cable");
+objectcable.addEventListener("click", create_div_cable);
+function create_div_cable() {
+  let workbench = document.getElementById("workbench");
+  let new_div = document.createElement("div");
+  let object = document.createElement("object");
+  object.data = "../icons/dash.svg";
+  object.id = "star-demo" + val;
+  object.setAttribute("alt", "embedded svg");
+  object.type = "image/svg+xml";
+  object.className = "star-demo";
+  val = val + 1;
+  new_div.className = "star-wrapperclass";
+  new_div.appendChild(object);
+  workbench.appendChild(new_div);
+  deplase("star-demo" + val);
+}
 function create_div() {
   let workbench = document.getElementById("workbench");
   let new_div = document.createElement("div");
-  new_div.innerText = "I am the second object";
+  new_div.innerText = "I am the object " + val;
   val = val + 1;
   new_div.id = "grid-snap" + val;
   new_div.className = "grid-snapclass";
   workbench.appendChild(new_div);
   deplase("grid-snap" + val);
 }
+let redimention = document.getElementById("contain");
+let redimention1 = document.getElementById("workbench");
+
+redimention.style.height = screen.height + "px";
+redimention1.style.height = screen.height + "px";
