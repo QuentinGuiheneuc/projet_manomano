@@ -7,19 +7,6 @@ body, html {
   margin-bottom: 10px;
 }
 
-.bouton_style{
-  color: rgb(71, 75, 48);
-  border-radius: 10%;
-  border: none;
-  background-color: rgb(247, 255, 188);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  width: fit-content;
-  text-align: center;
-  font-size: x-small;
-  height: 30px;
-}
-
 .logo{
   display: inline-block;
   height: 75px;
