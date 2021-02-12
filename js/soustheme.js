@@ -1,4 +1,4 @@
-import { createResultSearch } from "./structure/structure.js";
+import { createResultSearchsous } from "./structure/structure.js";
 var pictureAnimated = true;
 const log = document.getElementById("log");
 let seh = document.getElementById("Search");
@@ -13,7 +13,8 @@ btn.addEventListener("click", azrty1);
 btn1.addEventListener("click", azrty2);
 let tyu = document.getElementById("A1");
 let stop;
-tyu.style.top = screen.height / 2.5 + "px";
+tyu.style.top = "89px";
+btn_sh();
 console.log(screen.height);
 if (screen.height >= 900) {
   stop = 91;
@@ -56,7 +57,7 @@ function btn_sh() {
             clearInterval(anim);
             pictureAnimated = false;
             objetmenu.style.cursor = "";
-            createResultSearch("A2", "dffgd");
+            createResultSearchsous("A2", "dffgd");
             all.className = "row col-xl-12 col-lg-12 col-sm-12";
           } else {
             numpx1 = numpx1 - 5;
@@ -66,7 +67,7 @@ function btn_sh() {
       }
     })(80);
   } else {
-    createResultSearch("A2", "dffgd");
+    createResultSearchsous("A2", "dffgd");
     all.className = "row col-xl-12 col-lg-12 col-sm-12";
   }
   valuesearch.innerHTML = `X résultat(s) ont été trouvés pour la recherche : ${seh.value}`;

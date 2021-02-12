@@ -16,7 +16,7 @@ session_start();
         <!-- App favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
     <!-- App css -->
-   <script type="module" src="js/index.js" ></script>
+   <script type="module" src="js/soustheme.js" ></script>
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -38,14 +38,14 @@ session_start();
                     <?php //include('html/navbar-custom.php'); ?>
                     <!-- Start Content-->
                   
-                        <div class="row nav col-xl-6 col-lg-6 col-sm-12 " id="A1" >
+                        <div class="row nav col-xl-6 col-lg-6 col-sm-12 " id="A1" style="top: 89px;">
                             <div class="col-xl-12 col-lg-12 col-sm-12 row navform">
                                 <img src="img/logo_mm.svg" class="mx-auto" style="width:300px !important;">
                                 <nav class="navbar navbar-expand-lg navbar-light bg-light col-xl-12 col-lg-12 col-sm-12 nav1 ">
                                     <div class="col-xl-12 col-lg-12 col-sm-12" id="navbarSupportedContent">
                                         <div class="form-inline col-xl-12 col-lg-12 col-sm-10">
-                                            <input class="form-control col-xl-10 col-lg-10 col-sm-10" type="search" placeholder="Recherche de Theme ou SousTheme" aria-label="Search" id="Search">
-                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2" id ="btnSearch" >Search</a>
+                                            <input class="form-control col-xl-10 col-lg-10 col-sm-10" type="search" placeholder="Recherche dans le SousTheme" aria-label="Search" id="Search">
+                                            <a class="btn-manomano btn my-2 col-xl-2 col-lg-2 col-sm-2" id ="btnSearch">Search</a>
                                         </div>
                                     </div>
                                 </nav>
@@ -57,7 +57,7 @@ session_start();
                             <a class=" btn my-2 col-xl-1 col-lg-1 col-sm-1 btn-menu " id="btn1" ><img src="icons/arrow-left.svg" class="img imgcenter"></a>
                             <div class="col-xl-10 col-lg-10 col-sm-10 myDIV"id="A2">
                             </div>
-                            <a class="btn my-2 col-xl-1 col-lg-1 col-sm-1 btn-menu" id="btn" ><img src="icons/arrow-right.svg" class="img imgcenter"></a>
+                            <a class=" btn my-2 col-xl-1 col-lg-1 col-sm-1 btn-menu " id="btn" ><img src="icons/arrow-right.svg" class="img imgcenter"></a>
                         </div>
                         
                 </div>

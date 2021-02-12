@@ -5,7 +5,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: absolute; /* postulat de départ */
-  top: 449.750px;
+  top: 449.75px;
   left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
   padding: 0px;
@@ -34,7 +34,7 @@ body {
   border-color: #0397a7 !important;
 }
 .btn-manomano:hover {
-  color: #fff im !important;
+  color: #fff !important;
   background: linear-gradient(-50deg, #00eccd 40%, #0397a7 60%) !important;
   border-color: #00eccd;
 }
@@ -68,7 +68,6 @@ body {
 #A1 {
   z-index: 2;
   position: absolute;
-
 }
 #A2 {
   z-index: 1;
@@ -80,29 +79,29 @@ body {
   /* height: auto; */
   padding-right: 0px;
   transform: translate(2%, 0%); /* décalage de 50% de sa propre taille */
--webkit-scrollbar-button:horizontal;
+  -webkit-scrollbar-button: horizontal;
   scroll-snap-type: x proximity;
 }
- ::-webkit-scrollbar { 
-            width: 8px; 
-            height: 0px;
-        } 
-      
-        /* Track */ 
-        ::-webkit-scrollbar-track { 
-            background: rgba(220, 220, 220, 0); 
-            border-radius: 5px; 
-        } 
-        /* Handle */ 
-        ::-webkit-scrollbar-thumb { 
-            background: black; 
-            border-radius: 5px; 
-        } 
-        /* Handle on hover */ 
-        ::-webkit-scrollbar-thumb:hover { 
-            background: rgb(58, 55, 55); 
-        } 
-.btn-menu{
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(220, 220, 220, 0);
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(58, 55, 55);
+}
+.btn-menu {
   max-width: 10% !important;
   max-height: 10% !important;
 }
@@ -110,6 +109,6 @@ body {
   height: 100%;
   width: 40%;
 }
-.hide{
- display: none;
+.hide {
+  display: none;
 }
