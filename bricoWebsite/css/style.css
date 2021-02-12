@@ -43,12 +43,11 @@ body, html {
   margin-top: 4%;
 }
 
-.text{
-  margin-top: 2%;
-  letter-spacing: 3px;
-  font-size: 40px;
-  color: rgb(245, 253, 180);
-  text-align: left;
+.oneTheme{
+  height:280px;
+  margin-top:10px;
+  background-color: rgba(187, 211, 255, 0.49);
+  border-radius:45px;
 }
 
 /*container pour les éléments de la page home*/
