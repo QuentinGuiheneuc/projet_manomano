@@ -73,4 +73,21 @@ a:hover {
   font-size: 20px;
 }
 
+.footer{
+  margin-top:15px;
+  width:90%;
+  background-color: rgba(207, 242, 245, 0.514);
+  height:250px;
+}
+.footerDiv{
+  height: 200px;
+  margin-top:2%;
+}
+.footerText{
+  font-size: larger;
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+}
+
 /*container pour les éléments de la page home*/
