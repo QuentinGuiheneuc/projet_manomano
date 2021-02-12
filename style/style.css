@@ -68,8 +68,48 @@ body {
 #A1 {
   z-index: 2;
   position: absolute;
+
 }
 #A2 {
   z-index: 1;
-  position: absolute;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  /* height: auto; */
+  padding-right: 0px;
+  transform: translate(2%, 0%); /* décalage de 50% de sa propre taille */
+-webkit-scrollbar-button:horizontal;
+  scroll-snap-type: x proximity;
+}
+ ::-webkit-scrollbar { 
+            width: 8px; 
+            height: 0px;
+        } 
+      
+        /* Track */ 
+        ::-webkit-scrollbar-track { 
+            background: rgba(220, 220, 220, 0); 
+            border-radius: 5px; 
+        } 
+        /* Handle */ 
+        ::-webkit-scrollbar-thumb { 
+            background: black; 
+            border-radius: 5px; 
+        } 
+        /* Handle on hover */ 
+        ::-webkit-scrollbar-thumb:hover { 
+            background: rgb(58, 55, 55); 
+        } 
+.btn-menu{
+  max-width: 10% !important;
+  max-height: 10% !important;
+}
+.img {
+  height: 100%;
+  width: 40%;
+}
+.hide{
+ display: none;
 }

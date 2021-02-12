@@ -28,10 +28,10 @@ session_start();
         <div class="wrapper bg-light">
             <!-- ========== Left Sidebar Start ========== -->
             <div class="content-page">
-                <div class="content">
+                <div class="content" id="tre">
                     <?php //include('html/navbar-custom.php'); ?>
                     <!-- Start Content-->
-                    <div class="container-fluid bg-light" id="tre">
+                  
                         <div class="row nav col-xl-6 col-lg-6 col-sm-12 " id="A1">
                             <div class="col-xl-12 col-lg-12 col-sm-12 row navform">
                                 <img src="img/logo_mm.svg" class="mx-auto" style="width:300px !important;">
@@ -43,13 +43,17 @@ session_start();
                                         </div>
                                     </div>
                                 </nav>
+                                <span id="valueSearch" class="mx-auto"></span>
                             </div>
+                            
                         </div>
-                        <div class="row"id="A2">
-                            <p id="log"></p>
-
+                        <div class="row col-xl-12 col-lg-12 col-sm-12 hide" id="pa2">
+                            <a class=" btn my-2 col-xl-1 col-lg-1 col-sm-1 btn-menu " id="btn1" ><img src="icons/arrow-left.svg" class="img imgcenter"></a>
+                            <div class="col-xl-10 col-lg-10 col-sm-10 myDIV"id="A2">
+                            </div>
+                            <a class=" btn my-2 col-xl-1 col-lg-1 col-sm-1 btn-menu " id="btn" ><img src="icons/arrow-right.svg" class="img imgcenter"></a>
                         </div>
-                    </div>
+                        
                 </div>
             </div>
         </div>
