@@ -89,6 +89,10 @@ a:hover {
   padding: 20px;
   padding-top: 40px;
 }
+.footer_li{
+  list-style:none;
+  text-align:center;
+}
 
 .header{
   background-image: url("images/banner.svg");
